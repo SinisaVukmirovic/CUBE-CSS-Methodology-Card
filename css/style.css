@@ -1,11 +1,14 @@
 @import url("./reset.css");
 @import url("./C-composition.css");
-@import url("./C-composition.css");
+@import url("./U-utility.css");
+@import url("./B-block.css");
 
 /* VARIABLES */
 :root {
     --bg-clr: #ddd;
+    --card-bg-clr: #fff;
     --theme-clr: cornflowerblue;
+
     --text-clr: #444;
     --text-dark: #111;
     --text-light: #eee;
@@ -25,6 +28,10 @@ body {
     font-size: var(--fs-1);
     color: var(--text-clr);
     line-height: 1.6;
+
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
 }
 
 h1, h2, h3 {

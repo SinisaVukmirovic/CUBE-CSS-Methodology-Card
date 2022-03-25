@@ -19,3 +19,13 @@
 .bg-clr {
     background-color: var(--bg-clr);
 }
+.card-bg-clr {
+    background-color: var(--card-bg-clr);
+}
+
+.text-align-c {
+    text-align: center;
+}
+.text-align-l {
+    text-align: left;
+}
