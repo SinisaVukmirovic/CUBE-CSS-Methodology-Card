@@ -1,0 +1,21 @@
+/* U-utility is for utility classes */
+.padd-2 {
+    padding: 2rem;
+}
+.padd-1 {
+    padding: 1rem;
+}
+
+.text-clr {
+    color: var(--text-clr);
+} 
+.text-dark {
+    color: var(--text-dark);
+} 
+.text-light {
+    color: var(--text-light);
+}
+
+.bg-clr {
+    background-color: var(--bg-clr);
+}
