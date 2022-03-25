@@ -8,6 +8,30 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <!-- thinking in creating markup in CUBE CSS Methodology -->
+
+    <div class="card">
+        <img  class="card-image" src="https://picsum.photos/500/300?random" alt="Image with some random motive">
+
+        <!-- reason for a separate div for card content is because there is large padding around the whole content -->
+        <div class="card-content">
+            <h3></h3>
+            <p></p>
+            <div class="">
+                <div>
+                    <!-- decorative elements have to have alt attribute, but it can be left blank -->
+                    <img src="./icon.jpg" alt="">
+                </div>
+                <div>
+                    <p>Annual Plan</p>
+                    <p>$55.00/year</p>
+                </div>
+                <!-- this element makes more sense to be a button than a link, because it looks like it would pop up a model or similar element, other than going to a link -->
+                <button>Change</button>
+            </div>
+            <button>Proceed to Payment</button>
+            <button>Cancel Order</button>
+        </div>
+    </div>
 </body>
 </html>
