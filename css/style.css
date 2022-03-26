@@ -7,7 +7,8 @@
 :root {
     --bg-clr: #ddd;
     --card-bg-clr: #fff;
-    --theme-clr: cornflowerblue;
+    --theme-clr: royalblue;
+    --hover-clr: cornflowerblue;
 
     --text-clr: #444;
     --text-dark: #111;
@@ -16,6 +17,10 @@
     --fs-175: 1.75rem;
     --fs-1: 1rem;
     --fs-075: 1.75rem;
+
+    --br-05: .5rem;
+    --br-1: 1rem;
+    --round: 50%;
 }
 
 /* GLOBAL STYLES */

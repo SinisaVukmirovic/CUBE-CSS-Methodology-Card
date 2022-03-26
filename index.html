@@ -10,27 +10,29 @@
 <body class="bg-clr">
     <!-- thinking in creating markup in CUBE CSS Methodology -->
 
-    <div class="card card-bg-clr ">
+    <!-- In CUBE CSS Methodology recomends that Composition, Utility, Block classes be separated with a | or wrapped in [ ] for better sstructure and readibility -->
+
+    <div class="card | card-bg-clr br-1">
         <img  class="card-image" src="https://picsum.photos/500/300?random" alt="Image with some random motive">
 
         <!-- reason for a separate div for card content is because there is large padding around the whole content -->
-        <div class="card-content padd-2 text-align-c">
-            <h3>CUBE CSS Methodology</h3>
-            <p>This design is coded out following the CUBE CSS Methodology principles, with the video tutorial from Kevin Powell</p>
-            <div class="bg-clr padd-1 text-align-l">
+        <div class="card-content | grid-flow | padd-2 text-align-c">
+            <h3>CUBE CSS <br />Methodology</h3>
+            <p>This design is coded out following the CUBE CSS Methodology principles and the video tutorial from Kevin Powell</p>
+            <div class="flex-row | bg-clr padd-1 text-align-l br-05">
                 <div>
                     <!-- decorative elements have to have alt attribute, but it can be left blank -->
-                    <img src="./icon.jpg" alt="">
+                    <img class="round" src="./assets/icon.jpg" alt="">
                 </div>
                 <div>
-                    <p>Annual Plan</p>
+                    <p class="text-dark bold">Annual Plan</p>
                     <p>$55.00/year</p>
                 </div>
                 <!-- this element makes more sense to be a button than a link, because it looks like it would pop up a model or similar element, other than going to a link -->
-                <button>Change</button>
+                <button class="btn">Change</button>
             </div>
-            <button>Proceed to Payment</button>
-            <button>Cancel Order</button>
+            <button class="btn">Proceed to Payment</button>
+            <button class="btn">Cancel Order</button>
         </div>
     </div>
 </body>

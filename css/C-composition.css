@@ -1,1 +1,13 @@
 /* C-composition styles controls the layouts of things */
+/* .flow > :where(:not(:last-child)) {
+    margin-top: 1rem;
+} */
+.grid-flow {
+    display: grid;
+    gap: var(--gap, 1rem);
+}
+
+.flex-row {
+    display: flex;
+    gap: var(--gap, 1rem);
+}

@@ -15,6 +15,9 @@
 .text-light {
     color: var(--text-light);
 }
+.bold {
+    font-weight: bold;
+}
 
 .bg-clr {
     background-color: var(--bg-clr);
@@ -28,4 +31,14 @@
 }
 .text-align-l {
     text-align: left;
+}
+
+.br-05 {
+    border-radius: var(--br-05);
+}
+.br-1 {
+    border-radius: var(--br-1);
+}
+.round {
+    border-radius: var(--round);
 }
