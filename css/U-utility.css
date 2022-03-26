@@ -33,6 +33,10 @@
     text-align: left;
 }
 
+.push-right {
+    margin-left: auto;
+}
+
 .br-05 {
     border-radius: var(--br-05);
 }
@@ -41,4 +45,14 @@
 }
 .round {
     border-radius: var(--round);
+}
+
+a,
+.link {
+    cursor: pointer;
+    background: transparent;
+    color: var(--theme-clr);
+    border: none;
+    text-decoration: underline;
+    font-weight: bold;
 }

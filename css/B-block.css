@@ -1,20 +1,32 @@
 .card {
     overflow: hidden;
     max-width: 25rem;
+    box-shadow: 0 0 10px 0 var(--theme-clr);
 }
 
 .btn {
     cursor: pointer;
     text-decoration: none;
-    background-color: var(--theme-clr);
+    background-color: transparent;
     padding: .5rem 1rem;
     border: none;
     border-radius: .5rem;
-    color: var(--text-light);
     font-weight: bold;
 }
+.btn[data-type="primary"] {
+    background-color: var(--theme-clr);
+    color: var(--text-light);
+}
+.btn[data-type="default"] {
+    color: var(--text-clr);
+    padding: 0;
+}
 
-.btn:hover,
-.btn:focus {
+.btn[data-type="primary"]:hover,
+.btn[data-type="primary"]:focus {
     background-color: var(--hover-clr);
+}
+.btn[data-type="default"]:hover,
+.btn[data-type="default"]:focus {
+    color: var(--text-dark);
 }

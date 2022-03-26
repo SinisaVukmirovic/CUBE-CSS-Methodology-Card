@@ -11,6 +11,7 @@
     <!-- thinking in creating markup in CUBE CSS Methodology -->
 
     <!-- In CUBE CSS Methodology recomends that Composition, Utility, Block classes be separated with a | or wrapped in [ ] for better sstructure and readibility -->
+    <!-- | and [ ] are invalid selector, so HTML and CSS just ignore it anyway  -->
 
     <div class="card | card-bg-clr br-1">
         <img  class="card-image" src="https://picsum.photos/500/300?random" alt="Image with some random motive">
@@ -29,10 +30,10 @@
                     <p>$55.00/year</p>
                 </div>
                 <!-- this element makes more sense to be a button than a link, because it looks like it would pop up a model or similar element, other than going to a link -->
-                <button class="btn">Change</button>
+                <button class="link push-right">Change</button>
             </div>
-            <button class="btn">Proceed to Payment</button>
-            <button class="btn">Cancel Order</button>
+            <button class="btn" data-type="primary">Proceed to Payment</button>
+            <button class="btn" data-type="default">Cancel Order</button>
         </div>
     </div>
 </body>
