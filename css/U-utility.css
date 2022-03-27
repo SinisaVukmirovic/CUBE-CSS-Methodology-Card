@@ -56,3 +56,7 @@ a,
     text-decoration: underline;
     font-weight: bold;
 }
+a:hover,
+.link:hover {
+    color: var(--text-dark);
+}
